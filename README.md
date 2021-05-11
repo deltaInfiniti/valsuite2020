@@ -6,27 +6,22 @@ Main files actually reside on that repo because the bulk of this project are hea
 This repo basically only contains the main.cpp file for the tutorial/example projects and an implimentation of the live window editor.
 
 The main files (in dependancy stack)
-
-ValWindowManager.h<br>
--->ValDataRegister.h<br>
-	-->ValWindow.h<br>
-		--> ValTimer.h<br>
-		--> ValGFX.h<br>
-		--> ValEventHandler.h<br>
-		--> ValControl.h (ValGFX.h)<br>
-			---> strlist.h & varlist2020.h<br>
-			---> valtextcontrol.h<br>
+<pre>
+ValWindowManager.h
+-->ValDataRegister.h
+-->ValWindow.h
+	--> ValTimer.h
+	--> ValGFX.h
+	--> ValEventHandler.h
+	--> ValControl.h (ValGFX.h)
+		---> strlist.h & varlist2020.h
+		---> valtextcontrol.h
 ( some helper functions from valutils.h are also utilized) 
 
-example files(what it says on the tin):
-- ValBreakout.h 
-
-- mandelbrot.h
+example files(what it says on the tin)
+ValBreakout.h 
+mandelbrot.h
 
 also included in the standalone headers repo, but specific to valsuite:
-- ValWindowEditor.h
-
-
-
-
-
+ValWindowEditor.h
+</pre>
