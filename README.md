@@ -8,8 +8,8 @@ This repo basically only contains the main.cpp file for the tutorial/example pro
 The main files (in dependancy stack)
 
 ValWindowManager.h
-ValDataRegister.h
-	->ValWindow.h
+-->ValDataRegister.h
+	-->ValWindow.h
 		--> ValTimer.h
 		--> ValGFX.h
 		--> ValEventHandler.h
