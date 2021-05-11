@@ -7,15 +7,15 @@ This repo basically only contains the main.cpp file for the tutorial/example pro
 
 The main files (in dependancy stack)
 
-ValWindowManager.h
--->ValDataRegister.h
-	-->ValWindow.h
-		--> ValTimer.h
-		--> ValGFX.h
-		--> ValEventHandler.h
-		--> ValControl.h (ValGFX.h)
-			---> strlist.h & varlist2020.h
-			---> valtextcontrol.h
+ValWindowManager.h<br>
+-->ValDataRegister.h<br>
+	-->ValWindow.h<br>
+		--> ValTimer.h<br>
+		--> ValGFX.h<br>
+		--> ValEventHandler.h<br>
+		--> ValControl.h (ValGFX.h)<br>
+			---> strlist.h & varlist2020.h<br>
+			---> valtextcontrol.h<br>
 ( some helper functions from valutils.h are also utilized) 
 
 example files(what it says on the tin):
