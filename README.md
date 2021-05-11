@@ -9,9 +9,7 @@ The main files (in dependancy stack)
 
 ValWindowManager.h
 ValDataRegister.h
-ValWindow.h
-
-
+	->ValWindow.h
 		--> ValTimer.h
 		--> ValGFX.h
 		--> ValEventHandler.h
