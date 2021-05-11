@@ -24,4 +24,4 @@ mandelbrot.h
 
 also included in the standalone headers repo, but specific to valsuite:
 ValWindowEditor.h
-</pre>
+</pre> 
