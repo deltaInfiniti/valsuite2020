@@ -6,14 +6,10 @@ Main files actually reside on that repo because the bulk of this project are hea
 This repo basically only contains the main.cpp file for the tutorial/example projects and an implimentation of the live window editor.
 
 The main files (in dependancy stack):
-- ValWindowManager.h 
-
+ValWindowManager.h 
 	-> ValDataRegister.h
-	
 	-> ValWindow.h
-	
 		--> ValTimer.h
-		
 		--> ValGFX.h
 		--> ValEventHandler.h
 		--> ValControl.h (ValGFX.h)
